@@ -226,13 +226,13 @@ form span {
 }
 
 .blocked-field {
-  background: url(./img/Union.png) no-repeat center right 20px;
+  background: url(../img/Union.png) no-repeat center right 20px;
   position: relative;
   top: -5px;
 }
 
 .drop-menu {
-  background: url(./img/Vector-Stroke.png) no-repeat center right 20px;
+  background: url(../img/Vector-Stroke.png) no-repeat center right 20px;
 }
 
 form p {
@@ -415,7 +415,7 @@ form button {
 footer {
   width: 100%;
   height: 164px;
-  background: url(./img/shape3.png) no-repeat center bottom;
+  background: url(../img/shape3.png) no-repeat center bottom;
 
 }
 
@@ -463,12 +463,4 @@ footer {
   left: 74.93%;
   right: -2.49%;
   top: 767px;
-}
-
-.shape3 {
-  position: absolute;
-  width: 100%;
-  left: unset; 
-  bottom: 0px;
-  z-index: -1;
 }
