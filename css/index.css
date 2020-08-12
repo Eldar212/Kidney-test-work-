@@ -1,6 +1,6 @@
 @font-face {
   font-family: BwModelicaCyrillicSS01;
-  src: url(./fonts/BwModelicaCyrillicSS01DEMO-Bold.otf);
+  src: url(../fonts/BwModelicaCyrillicSS01DEMO-Bold.otf);
 }
 
 p {
@@ -75,7 +75,7 @@ header {
 }
 
 .button-search {
-  content: url(./img/Search.png);
+  content: url(../img/Search.png);
 }
 
 .address {
@@ -87,6 +87,10 @@ header {
   font-weight: 400;
   color: #E50046;
   margin-right: 2em;
+}
+
+address {
+  font-style: normal;
 }
 
 .address img {
@@ -121,6 +125,8 @@ header {
   text-align: center;
   display: flex;
   justify-content: center;
+  box-shadow: 0px 3px 6px rgba(229, 0, 70, 0.24);
+  border-radius: 32px;
 }
 
 section{
@@ -132,17 +138,27 @@ section{
   height: 20px;
 }
 
-.path li {
+.path a{
   float: left;
   font-family: Rubik;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
+  margin-right: 4px;
   color: #8B929E;
 }
 
-.first-path {
+.path li {
+  color: #8B929E;
+  margin: 0 4px;
+}
+
+.path ul {
+  display: flex;
+}
+
+.first-path a{
   color: #E50046;
 }
 
@@ -271,7 +287,11 @@ form input {
   color: #000000;
 }
 
-datalist {
+form input:required {
+  outline: none;
+}
+
+.doctor-list option{
   background-color: #EEEEEE;
 }
 .service-input img {
@@ -299,13 +319,13 @@ form button {
   box-shadow: 0px 3px 6px rgba(229, 0, 70, 0.24);
   border-radius: 32px;
   border: #E50046;
-
   font-family: Rubik;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .form-wrapper hr {
@@ -383,6 +403,10 @@ form button {
   color: #E50046;
 }
 
+.about-spec span {
+  border-bottom: 1px dashed #e50042;
+}
+
 .about-spec img {
   margin-top: 18px;
   margin-left: 6.5px;
@@ -449,12 +473,25 @@ footer {
   top: 72px;
 }
 
+.footer-wrapper img {
+  height: 48px;
+}
+
+.footer-links img {
+  height: 16px;
+  margin-right: 12px;
+}
+
+.footer-links li {
+  margin-bottom: 20px;
+}
 .shape1 {
   position: absolute;
   height: 757.67px;
   left: -1.04%;
   right: 81.71%;
   top: 190px;
+  z-index: -1;
 } 
 
 .shape2 {
@@ -463,4 +500,5 @@ footer {
   left: 74.93%;
   right: -2.49%;
   top: 767px;
+  z-index: -1;
 }

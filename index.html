@@ -40,8 +40,10 @@
   <section>
     <div class="path">
       <ul>
-        <li><a class="first-path" href="">Главная /</a></li>
-        <li><a href="">ЛОГ /</a></li>
+        <li class="first-path"><a href="">Главная</a></li>
+        <li>/</li>
+        <li><a href="">ЛОГ</a></li>
+        <li>/</li>
         <li><a href="">Перемещение(кукушка)</a></li>
       </ul>
     </div>
@@ -49,7 +51,7 @@
       <h1>Перемещение (кукушка)</h1>
       <span class="price-block">
         <p class="price">Стоимость:</p>
-        <p class="price-value">1500</p>
+        <p class="price-value">1500 ₽</p>
       </span>
     </div>
 
@@ -63,32 +65,28 @@
         </span>
       </div>
      
-      <form class="" action="" name="appointment" autocomplete="on">
+      <form class="" action="" name="appointment">
         <span class=" service-input">
             <p class="input-name">Услуга</p>
             <input class="blocked-field" readonly placeholder="Перемещение (кукушка)" name="service" type="text">
         </span>
         <span class=" doctor-input">
-          <input class="drop-menu"  list="list" name="doctor" placeholder="Врач" type="text">
-          <datalist id="list">
-            <option value="Иса Гамидов"></option>
-            <option value="Марина Джабраилова"></option>
-          </datalist>
+          <input class="drop-menu"  list="doctor-list" name="doctor" placeholder="Врач" type="text">
         </span>
         <span class="">
-          <input name="phone" placeholder="Номер телефона" type="text">
+          <input maxlength="15" name="phone" placeholder="Номер телефона" type="text">
         </span>
         <span class="">
             <p>Фамилия</p>
-            <input required name="surname" placeholder="" type="text">
+            <input maxlength="15"  name="surname" placeholder="" type="text">
         </span>
         <span class="">
             <p>Имя</p>
-            <input required name="first-name" placeholder="" type="text">
+            <input maxlength="15" name="first-name" placeholder="" type="text">
         </span>
         <span class="">
             <p>Отчество</p>
-            <input required name="patronymic" placeholder="" type="text">
+            <input maxlength="15" name="patronymic" placeholder="" type="text">
         </span>
         <div class="btn-wrapper">
           <button type="submit">Отправить заявку</button>
@@ -102,7 +100,7 @@
     <img class="shape2" src="./img/shape2.png" alt="">
   </div>
   <section class="specialists">
-    <h1>Специалисты</h1>
+    <h1>Специалисты:</h1>
 
     <div class="specialists-item">
       <div class="item">
@@ -112,7 +110,7 @@
           <li class="specialty">ЛОР, стаж 8 лет</li>
           <li class="schedule">Принимает с 10:00 до 16:00</li>
           <li class="schedule">Среда, четверг и пятница</li>
-          <li class="about-spec"> Узнать подробнее <img src="./img/arrow (Stroke).png" alt=""></li>
+          <li class="about-spec"> <span>Узнать подробнее</span> <img src="./img/arrow (Stroke).png" alt=""></li>
         </ul>
       </div>
 
@@ -123,13 +121,13 @@
           <li class="specialty">ЛОР, стаж 6 лет</li>
           <li class="schedule">Принимает с 9:00 до 14:00</li>
           <li class="schedule">Среда и пятница</li>
-          <li class="about-spec"> Узнать подробнее <img src="./img/arrow (Stroke).png" alt=""></li>
+          <li class="about-spec"> <span>Узнать подробнее</span> <img src="./img/arrow (Stroke).png" alt=""></li>
         </ul>
       </div>
     </div>
   </section>
   <section class="description">
-    <h1>Описание</h1>
+    <h1>Описание:</h1>
     <article>
       <p>Удаление патологического содержимого околоносовых пазух методом перемещения жидкости. Осуществляется при синуситах. Выполняется в положении лежа. Солевой раствор вливают в одну ноздрю и отсосом удаляют через другую. Благодаря интенсивному току жидкости в полости синусов создается отрицательное давление, воспалительное содержимое придаточных пазух (слизь или гной) поступает в полость носа, а затем вымывается.</p>
       <p>Промывание по Проетцу производится с поднятым мягким небом для предотвращения попадания жидкости в ротовую полость. Необходимого эффекта достигают, прося пациента непрерывно произносить «ку-ку», за счет чего возникло популярное название процедуры – «кукушка».</p>
