@@ -54,7 +54,7 @@ header {
   height: max-content;
   position: relative;
   top: 46px;
-  margin-right: 2em;
+
 }
 
 .navigation-menu ul {
@@ -71,7 +71,11 @@ header {
   font-size: 16px;
   line-height: 19px;
   float: left;
-  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.nav-span {
+  line-height: 28px;
 }
 
 .button-search {
