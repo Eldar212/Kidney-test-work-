@@ -54,11 +54,9 @@ header {
   height: max-content;
   position: relative;
   top: 46px;
-
 }
 
 .navigation-menu ul {
-  margin: 0;
   margin: 0;
   display: flex;
   justify-content: flex-end;
@@ -91,7 +89,7 @@ header {
   font-weight: 400;
   color: #E50046;
   margin-right: 2em;
-  line-height: 24px;
+  line-height: 28px;
 }
 
 address {
@@ -105,7 +103,7 @@ address {
 .phone-button {
   background-color: #E50046;
   height: max-content;
-  border: #E50046 1px solid;
+  border: none;
   border-radius: 30px;
   width: 191px;
   display: flex;
